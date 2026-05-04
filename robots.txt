@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /drafts/
+Disallow: /private/
+
+# PUT BASE64 HERE
