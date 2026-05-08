@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Riddle — The Denver Courier</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { background: #1e0c00; color: #ffe5b4; }
+
+    .masthead { background: #140800; border-bottom: 3px double #ff9900; }
+    .masthead-name { color: #ffe5b4; }
+    .masthead-eyebrow,
+    .masthead-tagline,
+    .masthead-date { color: #b07840; border-color: #3d1f00; }
+
+    nav { background: #0d0500; }
+    nav a { color: #ffe5b4; }
+    nav a:hover { background: #5a2d00; }
+
+    footer { background: #0d0500; color: #b07840; }
+    footer a { color: #ff9900; }
+
+    .riddle-wrap {
+      max-width: 700px;
+      margin: 70px auto 80px;
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    .riddle-tag {
+      display: inline-block;
+      background: #ff9900;
+      color: #0d0500;
+      font-size: 10px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      padding: 5px 18px;
+      font-weight: 900;
+      margin-bottom: 40px;
+    }
+
+    .riddle-question {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 5.5vw, 60px);
+      font-weight: 900;
+      line-height: 1.2;
+      color: #ffe5b4;
+      margin-bottom: 48px;
+    }
+
+    .riddle-divider {
+      width: 60px;
+      height: 3px;
+      background: #ff9900;
+      margin: 0 auto 48px;
+    }
+
+    .riddle-hint {
+      display: inline-block;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(20px, 3.5vw, 34px);
+      font-weight: 900;
+      color: #ff9900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border: 3px solid #ff9900;
+      padding: 22px 44px;
+      text-decoration: none;
+    }
+
+    .riddle-hint:hover { background: #ff990022; }
+  </style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="page-wrap">
+    <div class="masthead-eyebrow">Est. 2019 — Independent Local Journalism</div>
+    <div class="masthead-name">The Denver Courier</div>
+    <div class="masthead-tagline">Serving the Mile High City &nbsp;·&nbsp; Community &nbsp;·&nbsp; Culture &nbsp;·&nbsp; Crime &nbsp;·&nbsp; Transit</div>
+    <div class="masthead-date">Sunday, May 3, 2026</div>
+  </div>
+</div>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="missing.html">Missing &amp; Found</a>
+  <a href="article-wildfire.html">Environment</a>
+  <a href="article-transit.html">Transit</a>
+  <a href="article-festival.html">Arts &amp; Culture</a>
+  <a href="article-robots.html">Technology</a>
+  <a href="article-riddle.html">Riddle</a>
+  <a href="#">Opinion</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="riddle-wrap">
+  <div class="riddle-tag">Puzzle</div>
+  <h1 class="riddle-question">What does a web crawler see that visitors don't?</h1>
+  <div class="riddle-divider"></div>
+  <a href="robots.txt" class="riddle-hint">Hint: look in the site root for crawler instructions</a>
+</div>
+
+<footer>
+  <div style="margin-bottom:10px; font-family:'Playfair Display',serif; font-size:22px; font-weight:900; letter-spacing:1px;">The Denver Courier</div>
+  <div>&copy; 2026 The Denver Courier &nbsp;·&nbsp; <a href="robots.txt">robots.txt</a> &nbsp;·&nbsp; <a href="sitemap.xml">sitemap</a> &nbsp;·&nbsp; <a href="#">Privacy</a> &nbsp;·&nbsp; <a href="#">Contact</a></div>
+  <div style="margin-top:8px; color:#2a6a6a;">Independent local journalism since 2019. Not affiliated with any political organization.</div>
+</footer>
+
+</body>
+</html>
